@@ -8,7 +8,7 @@ slider.appendChild(tooltip);
 
 
 for (var year = 1822; year <= 1828; year++) {
-    images.push("/lib/img" + year + ".jpg");
+    images.push("/mapSlider/lib/img" + year + ".jpg");
 }
 
 noUiSlider.create(slider, {
